@@ -34,7 +34,7 @@ CXXFLAGS += \
 	-Wno-switch-enum
 
 LDFLAGS = \
-	-Wl,-Bsymbolic-functions \
+	-Wl \
 	-fPIE -pie \
 	-Wl,-z,now \
 	-Wl,-z,relro \
