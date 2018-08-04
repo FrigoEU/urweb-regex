@@ -1,0 +1,15 @@
+ffi src/regex__FFI
+include src/regex__FFI.h
+link -lurweb_regex
+jsFunc Regex__FFI.substring_start=UrWeb.Regex.Substring.start
+jsFunc Regex__FFI.substring_length=UrWeb.Regex.Substring.length
+jsFunc Regex__FFI.substring_list_length=UrWeb.Regex.Substring.List.length
+jsFunc Regex__FFI.substring_list_get=UrWeb.Regex.Substring.List.get
+jsFunc Regex__FFI.do_match=UrWeb.Regex.doMatch
+file /cgGvSqBi.js src/regex__FFI.js
+script /cgGvSqBi.js
+
+$/list
+$/option
+$/string
+src/regex
