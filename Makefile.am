@@ -36,8 +36,8 @@ CXXFLAGS += \
 LDFLAGS = \
 	-Wl \
 	-fPIE -pie \
-	-Wl,-z,now \
-	-Wl,-z,relro \
+	-Wl,now \
+	-Wl,relro \
 	-Wl,--hash-style=gnu \
 	-Wl,--no-copy-dt-needed-entries \
 	-Wl,--as-needed
