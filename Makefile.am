@@ -36,7 +36,6 @@ CXXFLAGS += \
 LDFLAGS = \
 	-Wl \
 	-fPIE -pie \
-	-Wl,--no-copy-dt-needed-entries \
 	-Wl,--as-needed
 
 lib_LTLIBRARIES = liburweb_regex.la
